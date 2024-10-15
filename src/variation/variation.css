@@ -1,0 +1,24 @@
+.test-hidden {
+  display: none;
+}
+
+.test-gallery {
+  width: 22%;
+  margin-right: 39px;
+  padding: 0 10px;
+  -ms-box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .06);
+  -webkit-box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .06);
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .06);
+}
+
+.test-gallery img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  display: block;
+  max-width: 100%;
+}
+
+.test-gallery .test-active {
+  border: 1px solid #000;
+}
